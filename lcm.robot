@@ -8,7 +8,7 @@ Put
     [Return]  ${result}
 
 hii
-    [Arguments]  ${var}
+    [Arguments]  ${var} 
     ${output}=  year  ${var}
     [Return]  ${output}
 
