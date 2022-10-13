@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git branch: 'main', credentialsId: '40132020-e6cb-471c-8ea4-9447fd137f41', url: 'https://github.com/VIDYASHREE-HN/test1.git'
+                git branch: 'main', credentialsId: 'e6a9ab17-5c73-409e-b03e-12a46d6748ab', url: 'https://github.com/VIDYASHREE-HN/test1.git'
             }
         }
     
