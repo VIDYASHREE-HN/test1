@@ -15,7 +15,7 @@ hii
 *** Test Cases ***
 test
     ${output}=  Put  2  3 
-    BuiltIn.log to console  ${output} 
+    BuiltIn.log to console  ${output}
 
 ssss
     ${num}=  hii  ${2024}
