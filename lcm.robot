@@ -26,4 +26,4 @@ ssss
     ${b} =  set variable  10
     ${mm} =  Evaluate  int(${a}) + int(${b})
     log to console  ${mm}
-    Should Be Equal  ${mm}  ${15}
+    Should Be Equal  ${mm}  ${15} 
