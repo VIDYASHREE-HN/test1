@@ -10,7 +10,7 @@ pipeline {
     
         stage('run test') {
             steps {
-                sh'python -m robot lcm.robot'
+                sh'python3 -m robot lcm.robot'
             }
         }
     }
