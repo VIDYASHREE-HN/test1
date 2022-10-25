@@ -18,9 +18,9 @@ test
     BuiltIn.log to console  ${output}
 
 ssss
-    ${num}=  hii  ${2024}
+    ${num}=  hii  ${2023}
     Log To Console  ${num}
-    SHOULD BE EQUAL  ${num}  ${2024}
+    SHOULD BE EQUAL  ${num}  ${2023}
     ${a} =  set variable  5
     ${b} =  set variable  10
     ${mm} =  Evaluate  int(${a}) + int(${b})
